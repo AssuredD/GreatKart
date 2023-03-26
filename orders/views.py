@@ -57,8 +57,7 @@ def place_order(request, total=0, quantity=0,):
             data.order_number = order_number
             data.save()
             return redirect('checkout')
-        else:
-            print(form.errors)
+
     else:
         return redirect('checkout')
 
