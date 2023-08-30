@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=True, cast=bool)  # True
 
 ALLOWED_HOSTS = [
-    'http://django-greatassuredkart-env.eba-ffrgi6bf.us-west-2.elasticbeanstalk.com/'
+    'https://django-greatassuredkart-env.eba-ffrgi6bf.us-west-2.elasticbeanstalk.com/'
 ]
 
 
